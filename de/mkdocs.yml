@@ -1,26 +1,23 @@
-site_name: lernOS Template Leitfaden
+site_name: lernOS Sewing Hero Guide
 site_url: https://cogneon.github.io/
 docs_dir: src
 site_dir: ../docs/de
 
 nav:
-    - Willkommen: index.md
-    - Grundlagen:
-      - Überblick: 1-1-Grundidee.md
-      - Lebenszyklus: 1-2-Lebenszyklus.md
-      - Inhaltsverzeichnis: 1-3-Inhaltsverzeichnis.md
-      - Inhalt und Schreibstil: 1-4-Inhalt-Schreibstil.md
-      - Markdown Syntax: 1-5-Markdown-Syntax.md
-      - Produktionskette: 1-6-Produktionskette.md
-      - GitHub: 1-7-Github.md
-    - Lernpfad: 2-0-Lernpfad.md
-    - Anhang: 3-0-Anhang.md
+    - Welcome: index.md
+    - Basics:
+      - Understanding your sewing machine: 1-1-Understanding_Your_Sewing_Machine.md
+      - Fabrics and materials: 1-2-Fabrics_and_Materials.md
+      - Basic sewing techniques: 1-3-Basic_Sewing_Techniques.md
+      - Pattern reading: 1-4-Pattern_Reading.md
+      - Sewing safety: 1-5-Sewing_Safety.md
+    - Learning Pathway: 2-0-Learning-Pathway.md
+    - Appendix: 3-0-Appendix.md
     - Download:
-      - PDF-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-template-guide.pdf
-      - Word-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-template-guide.docx
-      - HTML-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-template-guide.html
-      - E-Book (epub): https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-template-guide.epub
-      - E-Book (mobi): https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-template-guide.mobi
+      - PDF-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-sewing-hero-guide.pdf
+      - Word-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-sewing-hero-guide.docx
+      - HTML-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-sewing-hero-guide.html
+      - E-Book (epub): https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-sewing-hero-guide.epub
     - Links:
       - lernos.org: https://lernos.org
       - CONNECT Community: https://community.cogneon.de
@@ -35,6 +32,8 @@ theme:
     icon:
       logo: material/home
       repo: fontawesome/brands/github
+    features:
+      - toc.integrate
 
 extra_css:
   - stylesheets/extra.css
@@ -42,8 +41,8 @@ extra_css:
 extra_javascript:
   - javascripts/matomo.js
 
-repo_name: 'cogneon/lernos-template'
-repo_url: 'https://github.com/cogneon/lernos-template'
+repo_name: 'simondueckert/lernos-sewing-hero'
+repo_url: 'https://github.com/simondueckert/lernos-sewing-hero'
 
 extra:
     social:
