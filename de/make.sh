@@ -3,7 +3,7 @@ echo Starting lernOS Guide Generation ...
 
 # Variables
 filename="lernOS-Template-Guide-de"
-chapters="./src/index.md ./src/1-0-Grundlagen.md ./src/1-1-Grundidee.md ./src/1-2-Lebenszyklus.md ./src/1-3-Inhaltsverzeichnis.md ./src/1-4-Inhalt-Schreibstil.md ./src/1-5-Markdown-Syntax.md ./src/1-6-Produktionskette.md ./src/1-7-Github.md ./src/2-0-Lernpfad.md ./src/3-0-Anhang.md"
+chapters="./src/index.md ./src/1-0-Basics.md ./src/1-1-Understanding_Your_Sewing_Machine.md ./src/1-2-Fabrics_and_Materials.md ./src/1-3-Basic_Sewing_Techniques.md ./src/1-4-Pattern_Reading.md ./src/1-5-Sewing_Safety.md ./src/2-0-Learning-Pathway.md ./src/3-0-Appendix.md"
 
 # Delete Old Versions
 echo Deleting old versions ...
